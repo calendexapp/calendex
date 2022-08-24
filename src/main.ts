@@ -1,8 +1,8 @@
 import "./style.css";
-import App from "./App.svelte";
+import App from "./routes/+page.svelte";
 
 const app = new App({
-  target: document.getElementById("app"),
+  target: document.body,
 });
 
 export default app;
